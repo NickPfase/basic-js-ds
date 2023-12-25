@@ -21,12 +21,14 @@ class Stack {
   }
 
   pop() {
-    throw new NotImplementedError('Not implemented');
+    return this.nik.pop()
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   }
 
   peek() {
-    throw new NotImplementedError('Not implemented');
+    return this.nik[this.nik.length - 1]
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   }
 }
